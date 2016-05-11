@@ -1,8 +1,15 @@
 <ul class="categories-list">
-    <li>
-        <a href="<?php echo url('poems?category=satirika') ?>">Σατιρικά</a>
+    <li class="categories-list-item">
+        <a href="<?php echo url('poems') ?>">
+            Όλα τα Ποιήματα
+        </a>
     </li>
-    <li>
+    <li class="categories-list-item">
+        <a href="<?php echo url('poems?category=satirika') ?>">
+            Σατιρικά
+        </a>
+    </li>
+    <li class="categories-list-item">
         <a href="<?php echo url('poems?category=lirika') ?>">
             Λυρικά
         </a>
