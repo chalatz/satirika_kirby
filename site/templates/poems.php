@@ -18,17 +18,7 @@
             <?php endforeach ?>
 
             <?php if($pagination->hasPages()): ?>
-                <nav class="pagination">
-
-                  <?php if($pagination->hasNextPage()): ?>
-                      <a class="next" href="<?php echo $pagination->nextPageURL() ?>">Επόμενο</a>
-                  <?php endif ?>
-
-                  <?php if($pagination->hasPrevPage()): ?>
-                  <a class="prev" href="<?php echo $pagination->prevPageURL() ?>">Προηγούμενο</a>
-                  <?php endif ?>
-
-                </nav>
+                <?php snippet('pagination', ['pagination' => $pagination]) ?>
             <?php endif ?>
 
 

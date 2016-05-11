@@ -175,3 +175,41 @@
 .next-poem {
   float: right;
 }
+
+.pagination {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.1em;
+    margin-bottom: .5em;
+    @include breakpoint(medium) {
+        overflow: hidden;
+        text-align: center;
+    }
+}
+
+.pagination-nav-item {
+    display: block;
+    background-color: $blue-dark;
+    color: $white;
+    margin-bottom: 1em;
+    padding: .5em;
+    &:hover {
+        text-decoration: underline;
+        background-color: $blue-darker;
+    }
+    @include breakpoint(medium) {
+        display: inline-block;
+        padding: .7em .5em;
+    }
+}
+
+.previous-page {
+    @include breakpoint(medium){
+        margin-right: 1em;
+    }
+}
+
+.next-page {
+    @include breakpoint(medium){
+        margin-left: 1em;
+    }
+}
