@@ -1,0 +1,41 @@
+@mixin breakpoint($point) {
+  @if $point == large {
+    @media (min-width: 64.375em) { @content; }
+  }
+  @else if $point == medium {
+    @media (min-width: 50em) { @content; }
+  }
+  @else if $point == small {
+    @media (min-width: 37.5em)  { @content; }
+  }
+}
+
+$black: #090707;
+$white: #fffff3;
+$blue: #30A9DE;
+$red: #E53A40;
+$brown: #AF4034;
+$yellow: #EFDC05;
+$green: #5A9367;
+$blue-dark: darken($blue, 20%);
+$blue-darker: darken($blue, 30%);
+$white-dark: darken($white, 10%);
+
+$bg-body: $white;
+$bg-teaser: $blue;
+$bg-poem: $blue-dark;
+
+$color-teaser-title: $white;;
+$color-teaser-category: #2A1E5C;
+
+$box-shadow-color-module: #090707;
+$text-shadow-color-teaser-title: #090707;
+$text-shadow-color-poem-title: darken($text-shadow-color-teaser-title, 20%);
+
+@mixin clearfix {
+  &::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+}

@@ -7,6 +7,8 @@ password: >
 language: en
 role: admin
 history:
-  - poems/i-xanthia
-  - poems
-  - poems/i-ptixioiuxos
+  - poems/-don-kixotis
+  - poems/-neaniko
+  - poems/-i-alitheia
+  - poems/-aspondoi-filoi
+  - poems/-anatoli

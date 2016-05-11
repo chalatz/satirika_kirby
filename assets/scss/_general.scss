@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-family: 'Noto Serif', serif;
+	background: $bg-body;
+}
+
+a {
+	text-decoration: none;
+}
+
+.content-container,
+.site-header,
+.site-footer {
+	margin: 0 auto;
+	width: 90%;
+}
+
+.content-container {
+	overflow: hidden;
+}
+
+.module {
+	box-shadow: 0 15px 2px -10px $box-shadow-color-module;
+}

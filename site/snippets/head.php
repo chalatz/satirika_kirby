@@ -9,7 +9,6 @@
     <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,400italic,700,700italic&subset=greek,latin' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic&subset=greek,latin' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="<?php echo url('assets/css/global.css') ?>">
 
 </head>

@@ -1,0 +1,66 @@
+.icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+}
+
+.icon-quill {
+	position: relative;
+	width: 4em;
+	height: 4em;
+	fill: $white-dark;
+}
+
+.site-header {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.site-icon {
+	background: $blue-dark;
+	border-radius: 100%;
+	padding: 1.3em 1.5em;
+	display: inline-block;
+	transition: all .2s ease-in;
+	&:hover {
+		background: $blue;
+		.icon-quill {
+			fill: $white;
+		}
+	}
+}
+
+.site-logo {
+	text-align: center;
+}
+
+.site-title {
+	display: block;
+	font-size: 2em;
+	color: $black;
+	font-style: oblique;
+	margin: 1em 0 .5em 0;
+	padding: .1em;
+	line-height: 1.6em;
+	border-top: 3px solid $black;
+	border-bottom: 3px solid $black;
+	transition: all .2s ease-in;
+	&:hover {
+		color: $blue-dark;
+		border-top-color: $bg-body;
+		border-bottom-color: $blue-dark;
+	}
+}
+
+.site-slogan {
+	font-size: 1.8em;
+	font-weight: bold;
+	text-align: center;
+	.symbol {
+		font-size: 1.7em;
+		line-height: .7em;
+	}
+}
