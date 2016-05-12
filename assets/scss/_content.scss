@@ -1,8 +1,6 @@
 .info  {
   width: 90%;
   margin: 0 auto;
-  border-top: 2px dotted $black;
-  border-bottom: 2px dotted $black;
   margin-bottom: 2em;
   @include breakpoint(medium){
     width: 75%;
@@ -20,15 +18,34 @@
   width: 90%;
   margin: 0 auto;
   margin-bottom: 2em;
+  overflow: hidden;
   @include breakpoint(medium){
-    width: 75%;
+    width: 80%;
   }
   @include breakpoint(medium){
-    width: 60%;
+    width: 70%;
   }
   p {
     font-size: 1.1em;
     line-height: 1.5em;
+  }
+}
+
+.contact-section {
+  @include breakpoint(large) {
+    display: inline;
+  }
+}
+
+.contact-info {
+  @include breakpoint(large) {
+    float: left;
+  }
+}
+
+.contact-image {
+  @include breakpoint(large) {
+    float: right;
   }
 }
 
@@ -150,6 +167,7 @@
 }
 
 .poems-nav {
+  color: $white;
   font-size: 2.5em;
   background-color: $blue;
   padding: .1em .4em;
@@ -178,15 +196,19 @@
 
 .categories-list {
     list-style: none;
-    text-align: left;
     padding: 0;
+    li {
+      display: inline-block;
+    }
 }
 
 .categories-list-item {
-    display: inline-block;
-    a {
-        color: $black;
-        margin-right: 1em;
-        
+    color: $black;
+    border-bottom: 2px solid $black;
+    font-weight: bold;
+    margin-right: .5em;
+    &:hover {
+      color: $blue-dark;
+      border-bottom-color: $blue-dark;
     }
 }

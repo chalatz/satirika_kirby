@@ -3,12 +3,14 @@
 username: admin
 email: chalatz@yahoo.gr
 password: >
-  $2a$10$G581/AfvlEQKUgfA7cDvX.NlOlf1FLXrsgizJVzqJbqY7T7mvn7hu
+  $2a$10$DS9IS2dSpxZwmYzR2yaF2epHGbKmEWxrG4vGBZUPRqc3NDYCYYqQe
 language: en
 role: admin
 history:
+  - bio
+  - error
+  - contact
   - poems/-don-kixotis
   - poems/-neaniko
-  - poems/-i-alitheia
-  - poems/-aspondoi-filoi
-  - poems/-anatoli
+firstname: ""
+lastname: ""

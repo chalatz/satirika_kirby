@@ -2,8 +2,7 @@
 
 title: Poem
 pages: false
-files:
-  sortable: true
+files: false
 fields:
   title:
     label: Τίτλος

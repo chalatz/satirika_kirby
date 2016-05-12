@@ -4,14 +4,22 @@ title: Site
 pages: default
 fields:
   title:
-    label: Title
+    label: Τίτλος
     type:  text
   author:
-    label: Author
+    label: Συγγραφέας
     type:  text
   description:
-    label: Description
+    label: Περιγραφή
     type:  textarea
+  FrontPageNum:
+    label: Ποιήματα στην Αρχική Σελίδα
+    type: number
+    default: 6    
+  pageNum:
+    label: Ποιήματα ανά Σελίδα
+    type: number
+    default: 6
   keywords:
     label: Keywords
     type:  tags

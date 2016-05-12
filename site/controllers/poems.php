@@ -2,9 +2,7 @@
 
 return function($site, $pages, $page) {
 
-    $pages_num = 2;
-
-    $poems = $page->children()->sortBy('date', 'desc', 'time', 'desc')->paginate($pages_num);
+    $poems = $page->children()->sortBy('date', 'desc', 'time', 'desc')->paginate($site->pageNum()->int());
 
     $title = $page->title();
 
@@ -17,7 +15,7 @@ return function($site, $pages, $page) {
             $poems = $page->children()
                 ->sortBy('date', 'desc', 'time', 'desc')
                 ->filterBy('tags', 'Σατιρικά')
-                ->paginate($pages_num);
+                ->paginate($site->pageNum()->int());
 
             $title = 'Σατιρικά ' . $title;
 
@@ -28,10 +26,10 @@ return function($site, $pages, $page) {
             $poems = $page->children()
                 ->sortBy('date', 'desc', 'time', 'desc')
                 ->filterBy('tags', 'Λυρικά')
-                ->paginate($pages_num);
+                ->paginate($site->pageNum()->int());
 
             $title = 'Λυρικά ' . $title;
-            
+
         }
     }
 

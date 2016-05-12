@@ -5,6 +5,6 @@ firstname: ""
 lastname: ""
 email: g.g.pap@hotmail.com
 password: >
-  $2a$10$Xdg50WMNvkFnmEbnrob55ONDbN65S/ddUBm0wkrWufmrPNf6AKjLW
+  $2a$10$AgImWCne5y.g5UIfNG11/eZrmcLSAoPHUZToswHwGyUnHI735iT/i
 language: en
 role: editor

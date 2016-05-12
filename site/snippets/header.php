@@ -28,6 +28,7 @@
     <nav class="site-nav">
         <a href="<?php echo url('/') ?>" class="menu-item">Αρχική</a>
         <a href="<?php echo url('poems') ?>" class="menu-item">Ποιήματα</a>
+        <a href="<?php echo url('bio') ?>" class="menu-item">Βιογραφικό</a>
         <a href="<?php echo url('contact') ?>" class="menu-item">Επικοινωνία</a>
     </nav>
 
