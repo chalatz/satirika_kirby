@@ -644,6 +644,19 @@ a {
     color: #176c91;
     border-bottom-color: #176c91; }
 
+.poem-category {
+  overflow: hidden; }
+
+.poem-category-item {
+  background-color: #176c91;
+  float: right;
+  padding: 1em;
+  color: #fffff3;
+  font-size: 1.3em;
+  border-top: 2px dotted #fffff3; }
+  .poem-category-item:hover {
+    text-decoration: underline; }
+
 .pagination {
   font-family: 'Fira Sans', sans-serif;
   font-size: 1.1em;

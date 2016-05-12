@@ -13,6 +13,7 @@
                 <div class="poem-title">
                     <?php echo $page->title()->html() ?>
                 </div>
+                <?php snippet('poem_category') ?>
                 <div class="poem-body">
                     <?php echo $page->text()->kirbytext() ?>
                 </div>

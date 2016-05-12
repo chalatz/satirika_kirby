@@ -7,8 +7,6 @@
 
         <?php snippet('header') ?>
 
-        <?php echo $site->pageNum() ?>
-
         <section role="main" class="content-container">
             <h1 class="title">
                 Τελευταία Ποιήματα
