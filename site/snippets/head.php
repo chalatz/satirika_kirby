@@ -2,7 +2,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title><?php echo $site->title() ?></title>
+    <?php if($page->isHomePage()): ?>
+        <title><?php echo html($site->title() .' - '. $site->author()) ?></title>
+    <?php else: ?>
+        <title><?php echo html($page->title() . ' | ' . $site->title() .' - '. $site->author()) ?></title>
+    <?php endif ?>
 
     <meta name="description" content="<?php echo $site->description() ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
