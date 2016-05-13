@@ -9,12 +9,26 @@
 
         <section role="main" class="content-container">
 
-            <h1 class="title">
-                <?php echo $page->title() ?>
-            </h1>
+            <article class="bio-page">
 
-            <article class="info">
-                <?php echo $page->text()->kirbytext() ?>
+                <h1 class="title">
+                    <?php echo $page->title() ?>
+                </h1>
+
+                <div class="bio-section bio-info">
+                    <?php echo $page->text()->kirbytext() ?>
+                </div>
+
+                <div class="bio-section bio-image">
+
+                    <?php if($image = $page->image('photo.jpg')): ?>
+
+                        <img src="<?php echo $image->url() ?>" alt="<?php echo html($image->title()) ?>" />
+
+                    <?php endif ?>
+
+                </div>
+
             </article>
 
         </section>

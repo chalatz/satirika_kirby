@@ -1,4 +1,4 @@
-.info  {
+.contact-page  {
   width: 90%;
   margin: 0 auto;
   margin-bottom: 2em;
@@ -14,16 +14,16 @@
   }
 }
 
-.contact-page  {
-  width: 90%;
+.bio-page  {
+  width: 100%;
   margin: 0 auto;
   margin-bottom: 2em;
   overflow: hidden;
   @include breakpoint(medium){
-    width: 80%;
+    width: 90%;
   }
-  @include breakpoint(medium){
-    width: 70%;
+  @include breakpoint(large){
+    width: 80%;
   }
   p {
     font-size: 1.1em;
@@ -31,21 +31,28 @@
   }
 }
 
-.contact-section {
+.bio-section {
   @include breakpoint(large) {
     display: inline;
   }
 }
 
-.contact-info {
+.bio-info {
   @include breakpoint(large) {
-    float: left;
+      float: left;
+      width: 70%;
+      padding-right: 2em;
   }
 }
 
-.contact-image {
+.bio-image {
+  img {
+    box-shadow: 0 15px 2px -10px lighten($black, 40%);
+  }
   @include breakpoint(large) {
-    float: right;
+      float: right;
+      width: 30%;
+      padding-left: 2em;
   }
 }
 

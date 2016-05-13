@@ -466,46 +466,52 @@ a {
     .menu-item {
       margin-right: 2em; } }
 
-.info {
+.contact-page {
   width: 90%;
   margin: 0 auto;
   margin-bottom: 2em; }
   @media (min-width: 50em) {
-    .info {
+    .contact-page {
       width: 75%; } }
   @media (min-width: 50em) {
-    .info {
+    .contact-page {
       width: 60%; } }
-  .info p {
-    font-size: 1.1em;
-    line-height: 1.5em; }
-
-.contact-page {
-  width: 90%;
-  margin: 0 auto;
-  margin-bottom: 2em;
-  overflow: hidden; }
-  @media (min-width: 50em) {
-    .contact-page {
-      width: 80%; } }
-  @media (min-width: 50em) {
-    .contact-page {
-      width: 70%; } }
   .contact-page p {
     font-size: 1.1em;
     line-height: 1.5em; }
 
+.bio-page {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  overflow: hidden; }
+  @media (min-width: 50em) {
+    .bio-page {
+      width: 90%; } }
+  @media (min-width: 64.375em) {
+    .bio-page {
+      width: 80%; } }
+  .bio-page p {
+    font-size: 1.1em;
+    line-height: 1.5em; }
+
 @media (min-width: 64.375em) {
-  .contact-section {
+  .bio-section {
     display: inline; } }
 
 @media (min-width: 64.375em) {
-  .contact-info {
-    float: left; } }
+  .bio-info {
+    float: left;
+    width: 70%;
+    padding-right: 2em; } }
 
+.bio-image img {
+  box-shadow: 0 15px 2px -10px #7c6060; }
 @media (min-width: 64.375em) {
-  .contact-image {
-    float: right; } }
+  .bio-image {
+    float: right;
+    width: 30%;
+    padding-left: 2em; } }
 
 .title {
   font-family: 'Fira Sans', sans-serif;
