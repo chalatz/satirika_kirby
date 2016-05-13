@@ -401,6 +401,7 @@ a {
   border-radius: 100%;
   padding: 1.3em 1.5em;
   display: inline-block;
+  -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in; }
   .site-icon:hover {
     background: #30A9DE; }
@@ -420,6 +421,7 @@ a {
   line-height: 1.6em;
   border-top: 3px solid #090707;
   border-bottom: 3px solid #090707;
+  -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in; }
   .site-title:hover {
     color: #176c91;
