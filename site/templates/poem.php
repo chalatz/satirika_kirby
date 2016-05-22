@@ -14,9 +14,11 @@
                     <?php echo $page->title()->html() ?>
                 </div>
                 <?php snippet('poem_category') ?>
-                <div class="poem-body">
-                    <?php echo $page->text()->kirbytext() ?>
-                </div>
+                    <div class="poem-body-container">
+                        <div class="poem-body">
+                            <?php echo $page->text()->kirbytext() ?>
+                        </div>
+                    </div>
             </article>
 
             <?php snippet('poems_nav') ?>

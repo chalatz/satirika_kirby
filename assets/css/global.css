@@ -594,19 +594,21 @@ a {
   color: #090707;
   padding: 1em; }
 
+.poem-body-container {
+  text-align: center; }
+
 .poem-body {
-  padding-left: 1em;
   font-size: 1.3em;
   letter-spacing: .02em;
   font-style: oblique;
-  line-height: 1.5em; }
+  line-height: 1.5em;
+  display: inline-block;
+  text-align: left; }
   @media (min-width: 50em) {
     .poem-body {
-      padding-left: 2em;
       font-size: 1.5em; } }
   @media (min-width: 64.375em) {
     .poem-body {
-      padding-left: 4em;
       font-size: 1.6em;
       line-height: 1.7em; } }
 
@@ -658,10 +660,16 @@ a {
 .poem-category-item {
   background-color: #176c91;
   float: right;
-  padding: 1em;
+  padding: .3em .4em;
   color: #fffff3;
   font-size: 1.3em;
   border-top: 2px dotted #fffff3; }
+  @media (min-width: 50em) {
+    .poem-category-item {
+      padding: .5em .7em; } }
+  @media (min-width: 64.375em) {
+    .poem-category-item {
+      padding: .7em 1em; } }
   .poem-category-item:hover {
     text-decoration: underline; }
 

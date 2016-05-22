@@ -145,23 +145,26 @@
 }
 
 .poem {
-	width: 100%;
+  width: 100%;
   color: $black;
   padding: 1em;
 }
 
+.poem-body-container {
+    text-align: center;
+}
+
 .poem-body {
-	padding-left: 1em;
   font-size: 1.3em;
   letter-spacing: .02em;
   font-style: oblique;
   line-height: 1.5em;
+  display: inline-block;
+  text-align: left;
   @include breakpoint(medium) {
-  	padding-left: 2em;
   	font-size: 1.5em;
   }
   @include breakpoint(large) {
-		padding-left: 4em;
 		font-size: 1.6em;
 		line-height: 1.7em;
 	}
@@ -227,10 +230,16 @@
 .poem-category-item {
     background-color: $blue-dark;
     float: right;
-    padding: 1em;
+    padding: .3em .4em;
     color: $white;
     font-size: 1.3em;
     border-top: 2px dotted $white;
+    @include breakpoint(medium) {
+    	padding: .5em .7em;
+    }
+    @include breakpoint(large) {
+        padding: .7em 1em;
+    }
     &:hover {
         text-decoration: underline;
     }
