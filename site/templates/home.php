@@ -7,7 +7,7 @@
 
         <?php snippet('header') ?>
 
-        <section role="main" class="content-container">
+        <section role="main" class="content-container teasers">
             <h1 class="title">
                 Τελευταία Ποιήματα
             </h1>
