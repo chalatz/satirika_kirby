@@ -49,7 +49,7 @@ return function($site, $pages, $page) {
         if($category == 'filosofika') {
             $poems = $page->children()
                 ->sortBy('date', 'desc', 'time', 'desc')
-                ->filterBy('tags', 'Λυρικά')
+                ->filterBy('tags', 'Φυλοσοφικά')
                 ->paginate($site->pageNum()->int());
 
             $title = 'Φιλοσοφικά';
