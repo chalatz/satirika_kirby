@@ -479,6 +479,8 @@ a {
   .contact-page p {
     font-size: 1.1em;
     line-height: 1.5em; }
+  .contact-page a:hover {
+    text-decoration: underline; }
 
 .bio-page {
   width: 100%;

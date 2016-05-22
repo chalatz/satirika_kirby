@@ -5,8 +5,11 @@ class PoemPage extends Page {
     public function get_category_url($cat) {
 
         $categories = array(
-            'Σατιρικά' => 'satirika',
+            'Πολιτική Σάτιρα' => 'politiki-satira',
+            'Κοινωνική Σάτιρα' => 'koinoniki-satira',
+            'Ερωτική Σάτιρα' => 'erotiki-satira',
             'Λυρικά' => 'lirika',
+            'Φιλοσοφικά' => 'filosofika',
         );
 
         return url('poems?category=' . $categories[$cat]);

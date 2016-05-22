@@ -10,27 +10,51 @@ return function($site, $pages, $page) {
 
         $category =  get('category');
 
-        if($category == 'satirika') {
-
+        if($category == 'politiki-satira') {
             $poems = $page->children()
                 ->sortBy('date', 'desc', 'time', 'desc')
-                ->filterBy('tags', 'Σατιρικά')
+                ->filterBy('tags', 'Πολιτική Σάτιρα')
                 ->paginate($site->pageNum()->int());
 
-            $title = 'Σατιρικά ' . $title;
+            $title = 'Πολιτική Σάτιρα';
+        }
 
+        if($category == 'koinoniki-satira') {
+            $poems = $page->children()
+                ->sortBy('date', 'desc', 'time', 'desc')
+                ->filterBy('tags', 'Κοινωνική Σάτιρα')
+                ->paginate($site->pageNum()->int());
+
+            $title = 'Κοινωνική Σάτιρα';
+        }
+
+        if($category == 'erotiki-satira') {
+            $poems = $page->children()
+                ->sortBy('date', 'desc', 'time', 'desc')
+                ->filterBy('tags', 'Ερωτική Σάτιρα')
+                ->paginate($site->pageNum()->int());
+
+            $title = 'Ερωτική Σάτιρα';
         }
 
         if($category == 'lirika') {
-
             $poems = $page->children()
                 ->sortBy('date', 'desc', 'time', 'desc')
                 ->filterBy('tags', 'Λυρικά')
                 ->paginate($site->pageNum()->int());
 
-            $title = 'Λυρικά ' . $title;
-
+            $title = 'Λυρικά';
         }
+
+        if($category == 'filosofika') {
+            $poems = $page->children()
+                ->sortBy('date', 'desc', 'time', 'desc')
+                ->filterBy('tags', 'Λυρικά')
+                ->paginate($site->pageNum()->int());
+
+            $title = 'Φιλοσοφικά';
+        }
+
     }
 
     $pagination = $poems->pagination();
