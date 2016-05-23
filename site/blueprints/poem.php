@@ -10,9 +10,11 @@ fields:
   text:
     label: Κείμενο
     type:  textarea
+    required: true
   tags:
     label: Κατηγορίες
     type: tags
+    required: true
   date:
     label: Ημερομηνία
     type: date

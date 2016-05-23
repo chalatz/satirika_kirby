@@ -8,6 +8,7 @@ class PoemPage extends Page {
             'Πολιτική Σάτιρα' => 'politiki-satira',
             'Κοινωνική Σάτιρα' => 'koinoniki-satira',
             'Ερωτική Σάτιρα' => 'erotiki-satira',
+            'Φιλοσοφική Σάτιρα' => 'filosofiki-satira',
             'Λυρικά' => 'lirika',
             'Φιλοσοφικά' => 'filosofika',
         );

@@ -37,6 +37,15 @@ return function($site, $pages, $page) {
             $title = 'Ερωτική Σάτιρα';
         }
 
+        if($category == 'filosofiki-satira') {
+            $poems = $page->children()
+                ->sortBy('date', 'desc', 'time', 'desc')
+                ->filterBy('tags', 'Φιλοσοφική Σάτιρα')
+                ->paginate($site->pageNum()->int());
+
+            $title = 'Φιλοσοφική Σάτιρα';
+        }
+
         if($category == 'lirika') {
             $poems = $page->children()
                 ->sortBy('date', 'desc', 'time', 'desc')
