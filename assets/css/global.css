@@ -645,7 +645,8 @@ a {
   list-style: none;
   padding: 0; }
   .categories-list li {
-    display: inline-block; }
+    display: inline-block;
+    padding: 0.4em 0.4em 0.4em 0; }
 
 .categories-list-item {
   color: #090707;
