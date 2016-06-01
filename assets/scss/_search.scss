@@ -58,3 +58,22 @@
   top: .2em;
   margin-right: .2em;
 }
+
+.given-search-query {
+  background-color: $blue-dark;
+  padding: .15em;
+  color: $yellow;
+  font-style: oblique;
+}
+
+.not-found {
+  font-family: $sans;
+  text-align: left;
+  font-style: oblique;
+  //font-weight: bold;
+  font-size: 1.2em;
+  background-color: $red;
+  color: $white;
+  padding: .5em .8em;
+  text-decoration: underline;
+}

@@ -521,6 +521,22 @@ a {
   top: .2em;
   margin-right: .2em; }
 
+.given-search-query {
+  background-color: #176c91;
+  padding: .15em;
+  color: #EFDC05;
+  font-style: oblique; }
+
+.not-found {
+  font-family: "Fira Sans", sans-serif;
+  text-align: left;
+  font-style: oblique;
+  font-size: 1.2em;
+  background-color: #E53A40;
+  color: #fffff3;
+  padding: .5em .8em;
+  text-decoration: underline; }
+
 .contact-page {
   width: 90%;
   margin: 0 auto;
