@@ -466,6 +466,61 @@ a {
     .menu-item {
       margin-right: 2em; } }
 
+.site-search {
+  width: 100%;
+  margin-top: 1em;
+  font-family: "Fira Sans", sans-serif;
+  position: relative; }
+
+.site-search-input {
+  box-sizing: border-box;
+  border: 2px solid #176c91;
+  border-radius: 3px;
+  display: block;
+  width: 100%;
+  outline: medium none;
+  padding: 0.4em;
+  margin-bottom: .5em;
+  color: #090707;
+  font-size: 1.1em; }
+  .site-search-input:focus {
+    border-color: #104b65;
+    box-shadow: 0 0 3px #104b65; }
+  @media (min-width: 37.5em) {
+    .site-search-input {
+      display: inline-block;
+      width: 70%; } }
+
+.site-search-button {
+  border: 0 none;
+  border-radius: 6px;
+  display: block;
+  width: 100%;
+  padding: .2em;
+  text-align: center;
+  background-color: #176c91;
+  color: #fffff3;
+  font-size: 1.2em;
+  letter-spacing: .02em;
+  line-height: 1.5em; }
+  .site-search-button:hover {
+    background-color: #104b65; }
+  @media (min-width: 37.5em) {
+    .site-search-button {
+      border: 2px solid #176c91;
+      display: inline-block;
+      width: 27%;
+      position: absolute;
+      right: 0; } }
+
+.icon-search {
+  position: relative;
+  width: 1em;
+  height: 1em;
+  fill: #fffff3;
+  top: .2em;
+  margin-right: .2em; }
+
 .contact-page {
   width: 90%;
   margin: 0 auto;
