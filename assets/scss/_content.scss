@@ -248,3 +248,17 @@
         text-decoration: underline;
     }
 }
+
+.all-poems-link {
+  font-family: $sans;
+  display: block;
+  color: $blue-darker;
+  font-weight: bold;
+  margin-bottom: 2em;
+  padding: .5em;
+  font-size: 1.2em;
+  border-radius: 3px;
+  &:hover {
+    text-decoration: underline;
+  }
+}
