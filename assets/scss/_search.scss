@@ -2,7 +2,7 @@
   width: 100%;
   margin-top: 1em;
   font-family: $sans;
-  position: relative;;
+  overflow: hidden;
 }
 
 .site-search-input {
@@ -23,6 +23,7 @@
   @include breakpoint(small){
     display: inline-block;
     width: 70%;
+    float: left;
   }
 }
 
@@ -45,8 +46,7 @@
     border: 2px solid $blue-dark;
     display: inline-block;
     width: 27%;
-    position: absolute;
-    right: 0;
+    float: right;
   }
 }
 
