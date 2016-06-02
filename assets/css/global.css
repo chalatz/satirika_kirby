@@ -806,4 +806,9 @@ a {
   padding: .5em 0;
   color: #fffff3; }
 
+.footer-link {
+  color: #EFDC05; }
+  .footer-link:hover {
+    text-decoration: underline; }
+
 /*# sourceMappingURL=global.css.map */

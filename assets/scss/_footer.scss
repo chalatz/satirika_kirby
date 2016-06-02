@@ -9,3 +9,10 @@
   padding: .5em 0;
   color: $white;
 }
+
+.footer-link {
+    color: $yellow;
+    &:hover {
+        text-decoration: underline;
+    }
+}
