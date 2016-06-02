@@ -20,11 +20,6 @@
         </a>
     </li>
     <li>
-        <a class="categories-list-item" href="<?php echo url('poems?category=filosofiki-satira') ?>">
-            Φιλοσοφική Σάτιρα
-        </a>
-    </li>
-    <li>
         <a class="categories-list-item" href="<?php echo url('poems?category=lirika') ?>">
             Λυρικά
         </a>
