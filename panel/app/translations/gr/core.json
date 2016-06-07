@@ -307,5 +307,7 @@
     "autocomplete.method.error": "Μη έγκυρη μέθοδος αυτόματης συμπλήρωσης",
     "blueprints.error.default.missing": "Το προεπιλεγμένο blueprint απουσιάζει",
     "error": "Σφάλμα",
-    "error.headline": "Σφάλμα"
+    "error.headline": "Σφάλμα",
+
+    "poem.add": "Προσθήκη Ποιήματος"
 }

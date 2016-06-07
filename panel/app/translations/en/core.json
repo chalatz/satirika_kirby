@@ -307,5 +307,7 @@
     "autocomplete.method.error": "Invalid autocomplete method",
     "blueprints.error.default.missing": "Missing default blueprint",
     "error": "Error",
-    "error.headline": "Error"
+    "error.headline": "Error",
+
+    "poem.add": "Add Poem"
 }
