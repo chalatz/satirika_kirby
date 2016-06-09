@@ -54,6 +54,15 @@ return function($site, $pages, $page) {
 
             $title = 'Φιλοσοφικά';
         }
+        
+        if($category == 'autosarkasmoi') {
+            $poems = $page->children()
+                ->sortBy('date', 'desc', 'time', 'desc')
+                ->filterBy('tags', 'Αυτοσαρκασμοί')
+                ->paginate($site->pageNum()->int());
+
+            $title = 'Αυτοσαρκασμοί';
+        }        
 
     }
 

@@ -10,6 +10,7 @@ class PoemPage extends Page {
             'Ερωτική Σάτιρα' => 'erotiki-satira',
             'Λυρικά' => 'lirika',
             'Φιλοσοφικά' => 'filosofika',
+            'Αυτοσαρκασμοί' => 'autosarkasmoi',
         );
 
         return url('poems?category=' . $categories[$cat]);

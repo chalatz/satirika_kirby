@@ -29,4 +29,9 @@
             Φιλοσοφικά
         </a>
     </li>
+        <li>
+        <a class="categories-list-item" href="<?php echo url('poems?category=autosarkasmoi') ?>">
+            Αυτοσαρκασμοί
+        </a>
+    </li>
 </ul>
