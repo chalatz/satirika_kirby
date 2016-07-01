@@ -1,6 +1,6 @@
 .DS_Store
 site/accounts
-site/config/config.php
-site/config/config.satirika.gr.php
+site/config
+site/cache
 .sass-cache
 google3cb32db87d153e72.html
