@@ -536,6 +536,21 @@ a {
   color: #fffff3;
   padding: .5em .8em; }
 
+.algolia-logo-container {
+  float: right; }
+
+.algolia-powered-by-text,
+.algolia-logo {
+  float: left; }
+
+.algolia-powered-by-text {
+  line-height: 2em; }
+
+.algolia-logo {
+  height: 2em;
+  width: 4em;
+  margin-left: .5em; }
+
 .contact-page {
   width: 90%;
   margin: 0 auto;

@@ -11,3 +11,5 @@
 
     </div>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
