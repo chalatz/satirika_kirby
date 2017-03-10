@@ -471,9 +471,10 @@ a {
   margin-top: 1em;
   font-family: "Fira Sans", sans-serif;
   overflow: hidden; }
+  .site-search .site-search-input {
+    box-sizing: border-box; }
 
 .site-search-input {
-  box-sizing: border-box;
   border: 2px solid #176c91;
   border-radius: 3px;
   display: block;

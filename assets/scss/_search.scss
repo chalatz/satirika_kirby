@@ -3,10 +3,12 @@
   margin-top: 1em;
   font-family: $sans;
   overflow: hidden;
+  .site-search-input {
+    box-sizing: border-box;
+  }
 }
 
 .site-search-input {
-  box-sizing: border-box;
   border: 2px solid $blue-dark;
   border-radius: 3px;
   display: block;
