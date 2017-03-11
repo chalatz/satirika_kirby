@@ -1,5 +1,5 @@
 <form class="site-search" action="<?php echo page('search')->url() ?>">
-  <input class="site-search-input" method="post" type="search" name="q" value="<?php echo (isset($results) ? esc($results->query()) : "" )  ?>" placeholder="Όρος αναζήτησης...">
+  <input class="site-search-input" method="post" type="text" name="q" value="<?php echo (isset($results) ? esc($results->query()) : "" )  ?>" placeholder="Όρος αναζήτησης...">
   <button type="submit" class="site-search-button">
     <svg class="icon icon-search"><use xlink:href="#icon-search"></use></svg>
     Αναζήτηση
